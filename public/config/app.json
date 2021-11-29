@@ -1,0 +1,82 @@
+{
+    "ssoSiteUrl": "http://192.168.20.10:5552",
+    "routes": [
+        {
+            "login": {
+                "url": "/login/datumburg"
+            },
+            "alias": "鱼鳞图云",
+            "route": "/",
+            "template": "@system/layout-classic",
+            "props": {
+                "themeColor": "rgba(0, 73, 176, 255)",
+                "header": {
+                    "logo": "/images/logo.png",
+                    "rightAddons": [
+                        {
+                            "template": "@system/addons/layout-header-user-menu"
+                        }
+                    ]
+                }
+            },
+            "children": [
+                {
+                    "default": true,
+                    "alias": "首页",
+                    "route": "./home",
+                    "template": "@system/layout-classic/content",
+                    "children": [
+                        {
+                            "alias": "分组一",
+                            "svg": "caidanlan-caiwu-kanzhang",
+                            "menu": [
+                                {
+                                    "default": true,
+                                    "alias": "业务一",
+                                    "svg": "caidanlan-shengchan-wuliaoqingdan",
+                                    "route": "./page1",
+                                    "template": "echo"
+                                },
+                                {
+                                    "alias": "业务二",
+                                    "svg": "caidanlan-kehu-kehuguanli",
+                                    "route": "./page2",
+                                    "template": "echo"
+                                },
+                                {
+                                    "alias": "业务三",
+                                    "svg": "caidanlan-chanpin-chanpinfenleishezhi",
+                                    "route": "./page3",
+                                    "template": "echo"
+                                }
+                            ]
+                        },
+                        {
+                            "alias": "分组二",
+                            "svg": "caidanlan-renshi-jiangchengjilu",
+                            "menu": [
+                                {
+                                    "alias": "业务四",
+                                    "svg": "caidanlan-kefu-QAku",
+                                    "route": "./page4",
+                                    "template": "echo"
+                                },
+                                {
+                                    "alias": "业务五",
+                                    "svg": "caidanlan-shangcheng-jifenmingxi",
+                                    "route": "./page5",
+                                    "template": "echo"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "alias": "帮助",
+                    "route": "./help",
+                    "template": "echo"
+                }
+            ]
+        }
+    ]
+}
