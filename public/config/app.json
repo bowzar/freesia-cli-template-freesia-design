@@ -2,10 +2,10 @@
     "ssoSiteUrl": "http://192.168.20.10:5552",
     "routes": [
         {
-            "login": {
-                "url": "/login/datumburg"
-            },
+            "login": true,
             "alias": "鱼鳞图云",
+            "siteTitle": "鱼鳞图云",
+            "siteIcon": "/favicon.png",
             "route": "/",
             "template": "@system/layout-classic",
             "props": {
