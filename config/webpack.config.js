@@ -535,6 +535,13 @@ module.exports = function (webpackEnv) {
 											modifyVars: {
 												"@ant-prefix": "ant4"
 											}
+										},
+										additionalData: (content, loaderContext) => {
+											if (loaderContext.resourcePath.includes("node_modules"))
+												return content;
+
+											content = `.${env.raw.PROJECT_NAME} { ${content} }`;
+											return content;
 										}
 									},
 								},

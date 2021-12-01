@@ -1,5 +1,5 @@
 {
-    "ssoSiteUrl": "http://192.168.20.10:5552",
+    "ssoSiteUrl": "http://account-dev.yulintu.com",
     "routes": [
         {
             "login": true,
