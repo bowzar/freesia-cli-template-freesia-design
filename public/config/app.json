@@ -11,7 +11,7 @@
             "props": {
                 "themeColor": "rgba(0, 73, 176, 255)",
                 "header": {
-                    "logo": "/images/logo.png",
+                    "logoImage": "/images/logo.png",
                     "rightAddons": [
                         {
                             "template": "@system/addons/layout-header-user-menu"
