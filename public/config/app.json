@@ -10,7 +10,8 @@
             "props": {
                 "themeColor": "rgba(0, 73, 176, 255)",
                 "header": {
-                    "logoImage": "/images/logo.png",
+                    "theme": "default",
+                    "logoSvg": "logo-xing",
                     "rightAddons": [
                         {
                             "template": "@system/addons/layout-header-user-menu"
