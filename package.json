@@ -1,5 +1,5 @@
 {
-  "name": "<%= name %>",
+  "name": "freesia-cli-template-freesia-design",
   "version": "1.0.0",
   "private": true,
   "dependencies": {

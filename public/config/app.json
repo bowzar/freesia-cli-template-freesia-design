@@ -2,9 +2,8 @@
     "ssoSiteUrl": "http://account-dev.yulintu.com",
     "routes": [
         {
-            "login": true,
-            "alias": "鱼鳞图云",
-            "siteTitle": "鱼鳞图云",
+            "alias": "Freesia Design",
+            "siteTitle": "Freesia Design",
             "siteIcon": "/favicon.png",
             "route": "/",
             "template": "@system/layout-classic",
