@@ -9,11 +9,11 @@ const Intro = function (props) {
     return <>
         <DocumentContainer>
             <Typography>
-                <Title id="介绍">介绍</Title>
+                <Title id="概览">概览</Title>
                 <Image className="noshadow" src={resource("/images/docs/intro.png")}></Image>
                 <Text type="secondary">图片来自 Ant Design 官网</Text>
                 <Paragraph>
-                    这是一个基于鱼鳞图 Freesia Design 前端框架的工程项目。
+                    这是一个基于鱼鳞图 Freesia Design 的前端工程。
                 </Paragraph>
             </Typography>
             <Typography>

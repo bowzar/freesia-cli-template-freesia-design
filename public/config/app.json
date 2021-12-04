@@ -32,19 +32,19 @@
                             "menu": [
                                 {
                                     "default": true,
-                                    "alias": "业务一",
+                                    "alias": "模块一",
                                     "svg": "caidanlan-shengchan-wuliaoqingdan",
                                     "route": "./page1",
                                     "template": "echo"
                                 },
                                 {
-                                    "alias": "业务二",
+                                    "alias": "模块二",
                                     "svg": "caidanlan-kehu-kehuguanli",
                                     "route": "./page2",
                                     "template": "echo"
                                 },
                                 {
-                                    "alias": "业务三",
+                                    "alias": "模块三",
                                     "svg": "caidanlan-chanpin-chanpinfenleishezhi",
                                     "route": "./page3",
                                     "template": "echo"
@@ -56,13 +56,13 @@
                             "svg": "caidanlan-renshi-jiangchengjilu",
                             "menu": [
                                 {
-                                    "alias": "业务四",
+                                    "alias": "模块四",
                                     "svg": "caidanlan-kefu-QAku",
                                     "route": "./page4",
                                     "template": "echo"
                                 },
                                 {
-                                    "alias": "业务五",
+                                    "alias": "模块五",
                                     "svg": "caidanlan-shangcheng-jifenmingxi",
                                     "route": "./page5",
                                     "template": "echo"
@@ -81,7 +81,7 @@
                     "children": [
                         {
                             "default": true,
-                            "alias": "介绍",
+                            "alias": "概览",
                             "svg": "caidanlan-bangong-feiyongbaoxiao",
                             "route": "./intro",
                             "template": "docs-intro"
