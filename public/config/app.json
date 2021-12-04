@@ -32,19 +32,19 @@
                             "menu": [
                                 {
                                     "default": true,
-                                    "alias": "模块一",
+                                    "alias": "页面一",
                                     "svg": "caidanlan-shengchan-wuliaoqingdan",
                                     "route": "./page1",
                                     "template": "echo"
                                 },
                                 {
-                                    "alias": "模块二",
+                                    "alias": "页面二",
                                     "svg": "caidanlan-kehu-kehuguanli",
                                     "route": "./page2",
                                     "template": "echo"
                                 },
                                 {
-                                    "alias": "模块三",
+                                    "alias": "页面三",
                                     "svg": "caidanlan-chanpin-chanpinfenleishezhi",
                                     "route": "./page3",
                                     "template": "echo"
@@ -56,13 +56,13 @@
                             "svg": "caidanlan-renshi-jiangchengjilu",
                             "menu": [
                                 {
-                                    "alias": "模块四",
+                                    "alias": "页面四",
                                     "svg": "caidanlan-kefu-QAku",
                                     "route": "./page4",
                                     "template": "echo"
                                 },
                                 {
-                                    "alias": "模块五",
+                                    "alias": "页面五",
                                     "svg": "caidanlan-shangcheng-jifenmingxi",
                                     "route": "./page5",
                                     "template": "echo"
