@@ -73,8 +73,20 @@
                 },
                 {
                     "alias": "帮助",
-                    "route": "./help",
-                    "template": "echo"
+                    "route": "./docs",
+                    "template": "@system/layout-classic/content",
+                    "props": {
+                        "theme": "white"
+                    },
+                    "children": [
+                        {
+                            "default": true,
+                            "alias": "介绍",
+                            "svg": "caidanlan-bangong-feiyongbaoxiao",
+                            "route": "./intro",
+                            "template": "docs-intro"
+                        }
+                    ]
                 }
             ]
         }
