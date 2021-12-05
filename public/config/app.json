@@ -12,7 +12,7 @@
                 "header": {
                     "theme": "default",
                     "logoSvg": "logo-xing",
-                    "rightAddons": [
+                    "rightExtra": [
                         {
                             "template": "@system/addons/layout-header-user-menu"
                         }
@@ -76,7 +76,7 @@
                     "route": "./docs",
                     "template": "@system/layout-classic/content",
                     "props": {
-                        "theme": "white"
+                        "theme": "light"
                     },
                     "children": [
                         {

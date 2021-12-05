@@ -429,6 +429,11 @@ button.active,
                     color: white;
                 }
             }
+
+            .ant4-avatar.login {
+                background: rgba(255, 255, 255, .2);
+                color: white;
+            }
         }
 
         &.dark {
@@ -467,6 +472,11 @@ button.active,
                     background-color: @primary-color;
                     color: white;
                 }
+            }
+
+            .ant4-avatar.login {
+                background: rgba(255, 255, 255, .3);
+                color: white;
             }
         }
 
@@ -509,10 +519,19 @@ button.active,
             .primary-header-button {
                 color: rgba(0, 0, 0, 0.65);
 
+                &.strong {
+                    color: black;
+                }
+
                 &:hover {
                     color: @primary-color;
                     background-color: @primary-1;
                 }
+            }
+
+            .ant4-avatar.login {
+                background: @primary-color;
+                color: white;
             }
         }
     }
@@ -726,6 +745,16 @@ button.active,
     .ant4-menu-submenu-selected {
         .ant4-menu-submenu-title {
             background-color: @menu-item-active-bg ;
+        }
+    }
+}
+
+
+.layout-classic-content-sider-drawer {
+    .addons {
+        .ant4-avatar.login {
+            background: @primary-color;
+            color: white;
         }
     }
 }
