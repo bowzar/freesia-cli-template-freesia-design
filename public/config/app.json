@@ -90,5 +90,14 @@
                 }
             ]
         }
+    ],
+    "apps": [
+        {
+            "title": "Freesia Design",
+            "logoImage": "http://freedesign-dev.yulintu.com/images/apps/logo-freesia-design-docs.png",
+            "logoImageStyle": {},
+            "description": "鱼鳞图 Web 前端框架的官方网站，您可以在这里看到相关的介绍、使用说明和丰富的示例",
+            "url": "http://freedesign-dev.yulintu.com"
+        }
     ]
 }
