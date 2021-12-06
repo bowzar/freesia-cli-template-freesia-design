@@ -12,7 +12,7 @@
                 "header": {
                     "theme": "default",
                     "logoSvg": "logo-xing",
-                    "rightAddons": [
+                    "rightExtra": [
                         {
                             "template": "@system/addons/layout-header-user-menu"
                         }
