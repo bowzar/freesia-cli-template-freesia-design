@@ -1,0 +1,103 @@
+{
+    "ssoSiteUrl": "http://account-dev.yulintu.com",
+    "routes": [
+        {
+            "alias": "Freesia Design",
+            "siteTitle": "Freesia Design",
+            "siteIcon": "/favicon.png",
+            "route": "/",
+            "template": "@system/layout-classic",
+            "props": {
+                "themeColor": "rgba(0, 73, 176, 255)",
+                "header": {
+                    "theme": "default",
+                    "logoSvg": "logo-xing",
+                    "rightExtra": [
+                        {
+                            "template": "@system/addons/layout-header-user-menu"
+                        }
+                    ]
+                }
+            },
+            "children": [
+                {
+                    "default": true,
+                    "alias": "首页",
+                    "route": "./home",
+                    "template": "@system/layout-classic/content",
+                    "children": [
+                        {
+                            "alias": "分组一",
+                            "svg": "caidanlan-caiwu-kanzhang",
+                            "menu": [
+                                {
+                                    "default": true,
+                                    "alias": "页面一",
+                                    "svg": "caidanlan-shengchan-wuliaoqingdan",
+                                    "route": "./page1",
+                                    "template": "echo"
+                                },
+                                {
+                                    "alias": "页面二",
+                                    "svg": "caidanlan-kehu-kehuguanli",
+                                    "route": "./page2",
+                                    "template": "echo"
+                                },
+                                {
+                                    "alias": "页面三",
+                                    "svg": "caidanlan-chanpin-chanpinfenleishezhi",
+                                    "route": "./page3",
+                                    "template": "echo"
+                                }
+                            ]
+                        },
+                        {
+                            "alias": "分组二",
+                            "svg": "caidanlan-renshi-jiangchengjilu",
+                            "menu": [
+                                {
+                                    "alias": "页面四",
+                                    "svg": "caidanlan-kefu-QAku",
+                                    "route": "./page4",
+                                    "template": "echo"
+                                },
+                                {
+                                    "alias": "页面五",
+                                    "svg": "caidanlan-shangcheng-jifenmingxi",
+                                    "route": "./page5",
+                                    "template": "echo"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "alias": "帮助",
+                    "route": "./docs",
+                    "template": "@system/layout-classic/content",
+                    "props": {
+                        "theme": "light"
+                    },
+                    "children": [
+                        {
+                            "default": true,
+                            "alias": "概览",
+                            "svg": "caidanlan-bangong-feiyongbaoxiao",
+                            "route": "./intro",
+                            "template": "docs-intro"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "apps": [
+        {
+            "title": "Freesia Design",
+            "logoImage": "http://freedesign-dev.yulintu.com/images/apps/logo-freesia-design-docs.png",
+            "logoImageStyle": {},
+            "description": "鱼鳞图 Web 前端框架的官方网站，您可以在这里看到相关的介绍、使用说明和丰富的示例",
+            "url": "http://freedesign-dev.yulintu.com"
+        }
+    ]
+}

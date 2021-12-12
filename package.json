@@ -1,5 +1,5 @@
 {
-  "name": "<%= name %>",
+  "name": "aaa",
   "homepage": "/",
   "version": "1.0.0",
   "private": true,
@@ -15,6 +15,7 @@
     "@testing-library/user-event": "^12.5.0",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",
+    "@yulintu/freesia-bootstrap": "^1.0.0",
     "@yulintu/freesia-core": "^1.0.0",
     "@yulintu/freesia-design": "^1.0.0",
     "@yulintu/freesia-react-component": "^1.0.8",
