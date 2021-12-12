@@ -27,14 +27,15 @@
   <link rel="stylesheet/less" type="text/css" href="%PUBLIC_URL%/index.less">
   <!-- <link rel="stylesheet/less" type="text/css" href="%PUBLIC_URL%/color-antd3.less"> -->
   <script>
-    less = {
-      env: "production",
-      javascriptEnabled: true,
-      modifyVars: {
-        "@primary-color": 'rgba(0, 73, 176, 255)',
-        "@ant-prefix": "ant4"
-      }
-    };
+    if (!window.less)
+      window.less = {
+        env: "production",
+        javascriptEnabled: true,
+        modifyVars: {
+          "@primary-color": 'rgba(0, 73, 176, 255)',
+          "@ant-prefix": "ant4"
+        }
+      };
   </script>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root" class="vstretch"></div>

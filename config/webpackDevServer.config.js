@@ -126,5 +126,11 @@ module.exports = function (proxy, allowedHost) {
       // https://github.com/facebook/create-react-app/issues/2272#issuecomment-302832432
       app.use(noopServiceWorkerMiddleware(paths.publicUrlOrPath));
     },
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Credentials': true,
+      'Access-Control-Request-Method': 'GET,POST,PUT',
+      'Access-Control-Request-Headers': 'X-Custom-Header'
+    }
   };
 };
