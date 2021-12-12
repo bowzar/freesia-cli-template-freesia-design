@@ -1,26 +1,28 @@
 import './setupPublicPath';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Application } from "@yulintu/freesia-bootstrap";
-// import { Application } from "@yulintu/freesia-design";
+
+// import { Application } from "@yulintu/freesia-bootstrap";
+import { Application } from "@yulintu/freesia-design";
+// import { Application } from "@yulintu/freesia-design-mobile";
 
 import templates from "./templates";
+
 import './css/index.less';
 
 function render(props = {}) {
-	let { container } = props;
-	container = container ? container.querySelector('#root') : document.querySelector('#root');
-
-	ReactDOM.render((
-		<Application global={{}} templates={templates} {...props} options={{
-			// svgIconPrefix: "xxxx"
-		}} />
-	), container);
+	ReactDOM.render(
+		<Application global={{}} templates={templates} {...props} />,
+		props.container ? props.container.querySelector('#root') : document.querySelector('#root'));
 }
 
 if (!window.__POWERED_BY_QIANKUN__) {
 	render();
 }
+
+
+
+// 以下为微前端的钩子函数
 
 export async function bootstrap() {
 	console.log('microapp bootstrap');
