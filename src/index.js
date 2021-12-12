@@ -35,6 +35,5 @@ export async function mount(props) {
 
 export async function unmount(props) {
 	console.log('microapp unmount', props);
-	const { container } = props;
-	ReactDOM.unmountComponentAtNode(container ? container.querySelector('#root') : document.querySelector('#root'));
+	ReactDOM.unmountComponentAtNode(props?.container ? props?.container.querySelector('#root') : document.querySelector('#root'));
 }
