@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Application } from "@yulintu/freesia-design";
+import { Application } from "@yulintu/freesia-bootstrap";
 
 import "./index.less";
 
