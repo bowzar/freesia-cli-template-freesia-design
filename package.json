@@ -1,5 +1,5 @@
 {
-  "name": "<%= name %>",
+  "name": "aa",
   "homepage": "/",
   "version": "1.0.0",
   "private": true,
@@ -19,6 +19,7 @@
     "@yulintu/freesia-design": "^1.0.0",
     "@yulintu/freesia-react-component": "^1.0.8",
     "@yulintu/freesia-react-hoc": "^1.0.0",
+    "@yulintu/freesia-requests": "^1.0.0",
     "antd": "4.15.4",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.6.0",
