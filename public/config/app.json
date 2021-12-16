@@ -8,7 +8,7 @@
             "route": "/",
             "template": "@system/layout-classic",
             "props": {
-                "themeColor": "rgba(0, 73, 176, 255)",
+                "themeColor": "rgb(56 106 183)",
                 "header": {
                     "theme": "default",
                     "logoSvg": "logo-xing",
