@@ -535,7 +535,8 @@ module.exports = function (webpackEnv) {
 										lessOptions: {
 											javascriptEnabled: true,
 											modifyVars: {
-												"@ant-prefix": "ant4"
+												"@ant-prefix": "ant4",
+												"@root-entry-name": "variable",
 											}
 										},
 										additionalData: (content, loaderContext) => {
