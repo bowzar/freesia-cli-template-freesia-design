@@ -14,7 +14,7 @@
                     "logoSvg": "logo-xing",
                     "rightExtra": [
                         {
-                            "template": "@system/addons/layout-header-user-menu",
+                            "template": "@system/addons/header-user-menu",
                             "props": {
                                 "extra": [
                                     {
