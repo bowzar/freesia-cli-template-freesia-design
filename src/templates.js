@@ -1,11 +1,16 @@
+import Echo from "./components/pages/Echo";
+import DocsIntro from "./components/pages/Docs/Intro";
+
 const templates = [
     {
         name: "echo",
-        loader: () => import("./components/pages/Echo"),
+        Component: Echo,
+        // loader: () => import("./components/pages/Echo"),
     },
     {
         name: "docs-intro",
-        loader: () => import("./components/pages/Docs/Intro"),
+        Component: DocsIntro,
+        // loader: () => import("./components/pages/Docs/Intro"),
     }
 ]
 
