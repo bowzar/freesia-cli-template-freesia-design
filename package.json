@@ -19,6 +19,7 @@
     "@yulintu/freesia-core": "^1.0.0",
     "@yulintu/freesia-design": "^1.0.1",
     "@yulintu/freesia-react-component": "^1.0.8",
+    "@yulintu/freesia-react-component-sso": "^2.0.0",
     "@yulintu/freesia-react-hoc": "^1.0.0",
     "@yulintu/freesia-requests": "^1.0.0",
     "antd": "4.17.3",
