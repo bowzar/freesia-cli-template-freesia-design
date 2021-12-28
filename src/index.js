@@ -8,6 +8,7 @@ import { Application } from "@yulintu/freesia-design";
 
 import templates from "./templates";
 
+import './css/global.less';
 import './css/index.less';
 
 function render(props = {}) {

@@ -535,13 +535,16 @@ module.exports = function (webpackEnv) {
 										lessOptions: {
 											javascriptEnabled: true,
 											modifyVars: {
-												"@ant-prefix": "ant4",
+												"@ant-prefix": env.raw.ANT_PREFIX,
 												"@root-entry-name": "variable",
 											}
 										},
 										additionalData: (content, loaderContext) => {
-											if (loaderContext.resourcePath.includes("node_modules"))
+											if (loaderContext.resourcePath.includes("node_modules") ||
+												loaderContext.resourcePath.includes("/css/global.less") ||
+												loaderContext.resourcePath.includes("\\css\\global.less")) {
 												return content;
+											}
 
 											content = `.${env.raw.PROJECT_NAME} { ${content} }`;
 											return content;

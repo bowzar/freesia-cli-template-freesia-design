@@ -11,7 +11,7 @@ const Intro = function (props) {
         <DocumentContainer>
             <Typography>
                 <Title id="概览">概览</Title>
-                <Image className="noshadow" src={useResource("/images/docs/intro.png")}></Image>
+                <Image className="noshadow" preview={false} src={useResource("/images/docs/intro.png")}></Image>
                 <Text type="secondary">图片来自 Ant Design 官网</Text>
                 <Paragraph>
                     这是一个基于鱼鳞图 Freesia Design 的前端工程。

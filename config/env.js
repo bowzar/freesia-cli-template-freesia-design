@@ -86,6 +86,7 @@ function getClientEnvironment(publicUrl) {
         WDS_SOCKET_PATH: process.env.WDS_SOCKET_PATH,
         WDS_SOCKET_PORT: process.env.WDS_SOCKET_PORT,
         PROJECT_NAME: require(paths.appPackageJson).name,
+        ANT_PREFIX: require(paths.appPath + "/node_modules/@yulintu/freesia-design/package.json").ant_prefix,
         // Whether or not react-refresh is enabled.
         // react-refresh is not 100% stable at this time,
         // which is why it's disabled by default.
