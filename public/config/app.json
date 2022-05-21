@@ -1,7 +1,10 @@
 {
-    "ssoSiteUrl": "http://account-dev.yulintu.com",
+    "ssoSiteUrl": "http://dev.yizhangtu.com:9552",
     "routes": [
         {
+            "login": {
+                "optional": true
+            },
             "alias": "Freesia Design",
             "siteTitle": "Freesia Design",
             "siteIcon": "/favicon.png",
@@ -101,10 +104,10 @@
     "apps": [
         {
             "title": "Freesia Design",
-            "logoImage": "http://freedesign-dev.yulintu.com/images/apps/logo-freesia-design-docs.png",
+            "logoImage": "http://help.yizhangtu.com/images/apps/logo-freesia-design-docs.png",
             "logoImageStyle": {},
             "description": "鱼鳞图 Web 前端框架的官方网站，您可以在这里看到相关的介绍、使用说明和丰富的示例",
-            "url": "http://freedesign-dev.yulintu.com"
+            "url": "http://help.yizhangtu.com"
         }
     ]
 }
