@@ -25,7 +25,7 @@ const Intro = function (props) {
                 <Paragraph>
                     <ul>
                         <li>
-                            文档：<Link href="http://freedesign-dev.yulintu.com">http://freedesign-dev.yulintu.com</Link>
+                            文档：<Link href="http://help.yizhangtu.com/design/freesia/docs/intro">http://help.yizhangtu.com</Link>
                         </li>
                     </ul>
                 </Paragraph>
